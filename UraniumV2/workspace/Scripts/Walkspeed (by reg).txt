@@ -1,0 +1,12 @@
+local speed = 50 -- Replace the number with the amount you want
+local Loop = false -- Set to true if you want it to be added after death (CANT BE REVERSED)
+
+if Loop == true then
+    while true do
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
+        wait(0.1)
+    end
+else
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = speed
+end
+-- Made by reggg

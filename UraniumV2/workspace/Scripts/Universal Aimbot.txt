@@ -1,0 +1,6 @@
+--[[
+	WARNING: Heads up! This script has not been verified by ScriptBlox. Use at your own risk!
+]]
+-- Key system has NO ADS OR VERIFCATION, just quick discord join and copy key
+
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Kostass1644/UniversalAimbot/refs/heads/main/ObsfucatedUA.lua'))()
